@@ -9,7 +9,7 @@ def contact_view(request):
         # You can process or save the data here
         return render(request, "day1/success.html", {"name": name})  # Must return a response
     else:
-        return render(request, "day1/contact.html")  # Must return a response for GET request
+        return render(request, "day1/contact.html")  
 
      
 
