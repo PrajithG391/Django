@@ -6,7 +6,7 @@ def contact_view(request):
         name = request.POST.get("name")
         email = request.POST.get("email")
         message = request.POST.get("message")
-        # You can process or save the data here
+        
         return render(request, "day1/success.html", {"name": name})  
     else:
         return render(request, "day1/contact.html")  
