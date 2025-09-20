@@ -1,4 +1,4 @@
-# day1/views.py
+
 from django.shortcuts import render
 
 def contact_view(request):
